@@ -1,0 +1,16 @@
+# 汎用knowledge リポジトリの改行コード規程(G7 = ユーザー決定 2026-10-03)
+# 目的: Windows 環境での編集・checkout 時の CRLF 混入を防ぐ(07 U1 / 02 §5-1 の系譜)。
+# 方針: テキストはすべてリポジトリ内・作業ツリーとも LF に統一する。
+
+* text=auto eol=lf
+
+# 主要テキスト形式の明示(将来の誤検出防止)
+*.md text eol=lf
+*.txt text eol=lf
+*.py text eol=lf
+
+# バイナリ(画像・zip 等を将来追加する場合はここへ明示する。変換禁止)
+*.png binary
+*.jpg binary
+*.gif binary
+*.zip binary
