@@ -2,7 +2,7 @@
 
 > **版**: v1.1(2026-10-03)/ **出所**: wikiuniverse プロジェクト knowledge/(2026-10-03 時点アーカイブ)から抽出・汎用化
 > **性格**: 複数プロジェクトが**ライブ参照**する汎用knowledgeの原本(専用 GitHub リポジトリ・private。管理規則 = 01 §12)。プロジェクトはこのファイルをフォークせず、**clone + pull で参照**し、逸脱は override(プロジェクト 00 §7 = 01 §11)、改善は PR(01 §12.3)で行う。
-> **プロジェクト固有knowledge**: 各プロジェクトのワークスペース `knowledge/`(00・10–16・20–・work/・プロジェクト README)に分離。その移行・バックアップ = Google Drive(01 §12.5)。
+> **プロジェクト固有knowledge**: 各プロジェクトのワークスペース `knowledge/<project>/`(00・10–16・20–・work/・プロジェクト README)に分離(配置規約 = 01 §1: `knowledge/generic/` = 本リポジトリの clone と由来で分離)。その移行・バックアップ = Google Drive(01 §12.5)。
 
 ## これは何か
 
@@ -96,7 +96,7 @@
 
 ## プロジェクト側の情報(このファイルには無い)
 
-- 状態スナップショット・override 台帳へのポインタ・プロジェクト側番号台帳 = **プロジェクト knowledge/README.md**(templates/project_README.md)
+- 状態スナップショット・override 台帳へのポインタ・プロジェクト側番号台帳 = **プロジェクト knowledge/<project>/README.md**(templates/project_README.md)
 - プロジェクト固有値・override = **プロジェクト 00_プロジェクト固定値.md**
 
 ## 運用メモ

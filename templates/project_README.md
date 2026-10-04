@@ -6,7 +6,7 @@
 
 ## 汎用knowledge 参照(軽量 pin。規則 = 01 §10/§11)
 
-- clone の所在: <例: /home/user/agent-knowledge>(プロジェクト knowledge/ と兄弟。**プロジェクトリポジトリの内側に置かない**)
+- clone の所在: <例: /home/user/knowledge/generic>(配置規約 = 汎用 01 §1。**プロジェクトリポジトリの内側に置かない**)
 - リポジトリ: <KNOWLEDGE_REPO_URL>(正典 = 汎用 01 §12.1)
 - 導入時の HEAD: <commit hash>(tag <vX.Y>、<YYYY-MM-DD>)
 - 現在の HEAD: <pull の都度更新(セッション開始時のみ = 01 §11 pull 規律)>
